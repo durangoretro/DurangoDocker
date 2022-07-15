@@ -16,5 +16,5 @@ This Image is made with the colaboration of [La jaquería](https://lajaqueria.or
 By default the make command is called.
 
 ```bash
-docker run -v $PWD:/src/durango zerasul/durangodevkit
+docker run -rm -v $PWD:/src/durango zerasul/durangodevkit
 ```
