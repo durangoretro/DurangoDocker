@@ -10,7 +10,7 @@ RUN apt update &&\
  apt update && apt install -yq cc65 xa65 zip unzip &&\
  mkdir -p /src/durango &&\
  mkdir -p $DDK
- RUN curl -L "https://github.com/durangoretro/DurangoLib/releases/download/0.0.3/durangoLib.zip" --output $DDK/durango.zip
+ RUN curl -L "https://github.com/durangoretro/DurangoLib/releases/download/0.0.4/durangoLib.zip" --output $DDK/durango.zip
  RUN unzip $DDK/durango.zip -d $DDK/
 
 WORKDIR /src/durango
