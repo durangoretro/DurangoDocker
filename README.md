@@ -8,6 +8,8 @@ This image include the following tools:
 
 * xa65 assembler for 6502
 * cc65 C Compiler
+* Rescomp
+* DurangoLib
 
 You can Find this Image in [Docker Hub](https://hub.docker.com/r/zerasul/durangodevkit).
 
