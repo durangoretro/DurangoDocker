@@ -11,8 +11,8 @@ RUN apt update &&\
  apt update && apt install -yq cc65-common cc65 xa65 zip unzip default-jre &&\
  mkdir -p /src/durango &&\
  mkdir -p $DDK/rescomp &&\
- curl -L https://github.com/durangoretro/rescomp/releases/download/v1.0.0/rescomp.jar --output $DDK/rescomp/rescomp.jar
-RUN curl -L https://github.com/durangoretro/DurangoLib/releases/download/0.1.0/durangolib-0.1.0.zip --output $DDK/durangolib.zip &&\
+ curl -L https://github.com/durangoretro/rescomp/releases/download/v1.0.1/rescomp.jar --output $DDK/rescomp/rescomp.jar
+RUN curl -L https://github.com/durangoretro/DurangoLib/releases/download/0.1.1/durangolib-0.1.1-2e0d1abf.zip --output $DDK/durangolib.zip &&\
  unzip $DDK/durangolib.zip -d $DDK
 RUN git config --global --add safe.directory /src/durango
 WORKDIR /src/durango
